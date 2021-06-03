@@ -1,0 +1,13 @@
+{
+  "name": "Adminer",
+  "version": "0",
+  "upstream": "0",
+  "slug": "adminer",
+  "description": "Adminer (formerly phpMinAdmin) is a full-featured database management tool written in PHP.",
+  "url": "https://github.com/elmerenges/hassio-addons-repo",
+  "startup": "services",
+  "arch": ["aarch64", "amd64", "armv7", "armhf"],
+  "ports": {
+    "8989/tcp": 8989
+  }
+}
